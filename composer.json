@@ -1,0 +1,22 @@
+{
+	"name": "lelesys/plugin-sitemap",
+	"description": "SiteMap helps you navigate throughout the pages on the site.",
+	"license": "LGPL-3.0+",
+	"type": "typo3-flow-plugin",
+	"authors": [
+		{
+			"name": "Lelesys Infotech Pvt Ltd, India",
+			"email": "typo3neos@lelesys.com",
+			"homepage": "http://www.lelesys.com"
+		}
+	],
+	"require": {
+		"typo3/flow": "*",
+		"typo3/neos": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Lelesys\\Plugin\\SiteMap": "Classes"
+		}
+	}
+}
