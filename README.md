@@ -10,7 +10,7 @@ Enter the following line in the Root.ts2 of your sites package:
 include: resource://Lelesys.Plugin.SiteMap/Private/TypoScripts/Library/NodeTypes.ts2
 
 Include the plugin's Stylesheet to your own one's where you add other stylesheets of the site.
-<link href="{f:uri.resource(path: 'resource://Lelesys.Plugin.Sitemap/Public/Stylesheets/Sitemap.css')}" rel="stylesheet" media="screen">
+<link href="{f:uri.resource(path: 'resource://Lelesys.Plugin.SiteMap/Public/Stylesheets/Sitemap.css')}" rel="stylesheet" media="screen">
 
 Usage
 -----
