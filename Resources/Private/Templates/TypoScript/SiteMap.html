@@ -1,7 +1,7 @@
 {namespace t=TYPO3\Neos\ViewHelpers}
 <t:contentElement node="{node}" reloadable="TRUE">
 	<t:contentElement.notEditable>
-		<ul class="t3-content-navigation">
+		<ul class="sitemap-navigation">
 			<f:render section="itemsList" arguments="{items: items}" />
 		</ul>
 	</t:contentElement.notEditable>
@@ -10,6 +10,7 @@
 <f:section name="itemsList">
 		<f:for each="{items}" as="item">
 			<li class="{item.state}">
+				 <i></i>
 				<t:link.node node="{item.node}">
 					{item.label}
 				</t:link.node>

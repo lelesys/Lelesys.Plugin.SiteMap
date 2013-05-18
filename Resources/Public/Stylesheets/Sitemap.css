@@ -1,0 +1,12 @@
+.sitemap-navigation li {
+	list-style-type: none;
+}
+
+.sitemap-navigation li i {
+	background-image: url('../Images/glyphicons-halflings.png');
+	background-position: -188px -20px;
+	background-repeat: no-repeat;
+	float: left;
+	height: 18px;
+	width: 22px;
+}
