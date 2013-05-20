@@ -1,7 +1,7 @@
 'Lelesys.Plugin.NodeTypes:SiteMap':
   superTypes: ['TYPO3.Neos.NodeTypes:ContentObject']
   ui:
-    label: 'Site Map'
+    label: 'Lelesys SiteMap'
     group: 'Plugins'
     icon:
       light: 'Images/Icons/White/list_bullets_icon-16.png'
