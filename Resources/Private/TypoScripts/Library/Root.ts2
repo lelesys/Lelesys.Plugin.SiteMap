@@ -1,0 +1,11 @@
+include: resource://Lelesys.Plugin.SiteMap/Private/TypoScripts/Library/NodeTypes.ts2
+
+xml = Lelesys.Plugin.SiteMap:SiteMapFormat
+xml {
+	templatePath = 'resource://Lelesys.Plugin.SiteMap/Private/Templates/TypoScript/SiteMap.xml'
+	maximumLevels = n
+}
+
+prototype(Lelesys.Plugin.SiteMap:SiteMapFormat) {
+	@class = 'Lelesys\\Plugin\\SiteMap\\TypoScript\\SiteMapFormat'
+}

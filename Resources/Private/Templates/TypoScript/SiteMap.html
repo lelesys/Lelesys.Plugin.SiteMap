@@ -1,24 +1,20 @@
-{namespace t=TYPO3\Neos\ViewHelpers}
-<t:contentElement node="{node}" reloadable="TRUE">
-	<t:contentElement.notEditable>
-		<ul class="sitemap-navigation">
-			<f:render section="itemsList" arguments="{items: items}" />
-		</ul>
-	</t:contentElement.notEditable>
-</t:contentElement>
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<neos:contentElement node="{node}" reloadable="TRUE">
+	<ul class="sitemap-navigation">
+		<f:render section="itemsList" arguments="{items: items}" />
+	</ul>
+</neos:contentElement>
 
 <f:section name="itemsList">
-		<f:for each="{items}" as="item">
-			<li class="{item.state}">
-				 <i></i>
-				<t:link.node node="{item.node}">
-					{item.label}
-				</t:link.node>
-				<f:if condition="{item.subItems}">
-					<ul>
-						<f:render section="itemsList" arguments="{items: item.subItems}" />
-					</ul>
-				</f:if>
-			</li>
-		</f:for>
+	<f:for each="{items}" as="item">
+		<li class="{item.state}">
+			<i></i>
+		<neos:link.node node="{item.node}">{item.label}</neos:link.node>
+		<f:if condition="{item.subItems}">
+			<ul>
+				<f:render section="itemsList" arguments="{items: item.subItems}" />
+			</ul>
+		</f:if>
+		</li>
+	</f:for>
 </f:section>

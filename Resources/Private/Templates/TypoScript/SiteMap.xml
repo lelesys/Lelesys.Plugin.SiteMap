@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{namespace sitemap=Lelesys\Plugin\SiteMap\ViewHelpers}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<f:render section="itemsList" arguments="{items: items}" />
+</urlset>
+<f:section name="itemsList">
+	<f:for each="{items}" as="item">
+		<url>
+			<loc>
+				<sitemap:pageUrl node="{item.node}" format="html" absolute="TRUE"></sitemap:pageUrl>
+			</loc>
+		</url>
+		<f:if condition="{item.subItems}">
+			<f:render section="itemsList" arguments="{items: item.subItems}" />
+		</f:if>
+	</f:for>
+</f:section>
