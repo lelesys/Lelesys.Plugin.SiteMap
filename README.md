@@ -18,10 +18,9 @@ Include the plugin's Stylesheet to your own one's where you add other stylesheet
 Usage
 -----
 
-This plugin will add the sitemap of the entire pagetree of the website on the page where this
-plugin will be added. You can hide the plugin if you dont want the sitemap to be visible on frontend.
-The hidden pages or pages hidden in menu are not visible on the frontend. You can delete the plugin
-if you dont want this plugin on any page.
+This plugin will add the sitemap of the entire websites pagetree. You can hide the plugin so that it will not be visible in frontend.
+The hidden pages or pages hidden in menu will not be visible in the frontend. You can delete the plugin
+if you dont want the plugin on any page.
 If you want to see xml format of the sitemap just type  eg:"domainname.com/about-us.xml"
 just add .xml to any page and you will get the sitemap in xml format.
 
