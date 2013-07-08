@@ -13,10 +13,10 @@ namespace Lelesys\Plugin\SiteMap\TypoScript;
 use TYPO3\Flow\Annotations as Flow;
 
 /**
- * A TypoScript object which sets the header to application/xml
+ * A TypoScript object which sets the response header to application/xml
  *
  */
-class SiteMapFormat extends \TYPO3\Neos\TypoScript\MenuImplementation {
+class SiteMapXml extends \TYPO3\Neos\TypoScript\MenuImplementation {
 
 	/**
 	 * @return string

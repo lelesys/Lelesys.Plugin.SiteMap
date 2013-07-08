@@ -1,7 +1,12 @@
-# Menu TS Object
-
 prototype(Lelesys.Plugin.NodeTypes:SiteMap) < prototype(TYPO3.Neos:Menu)
 prototype(Lelesys.Plugin.NodeTypes:SiteMap) {
 	templatePath = 'resource://Lelesys.Plugin.SiteMap/Private/Templates/TypoScript/SiteMap.html'
 	maximumLevels = n
+}
+
+# This changes the template to xml and sets a response header
+prototype(Lelesys.Plugin.NodeTypes:SiteMapXml) < prototype(Lelesys.Plugin.NodeTypes:SiteMap)
+prototype(Lelesys.Plugin.NodeTypes:SiteMapXml) {
+	@class = 'Lelesys\\Plugin\\SiteMap\\TypoScript\\SiteMapXml'
+	templatePath = 'resource://Lelesys.Plugin.SiteMap/Private/Templates/TypoScript/SiteMap.xml'
 }
