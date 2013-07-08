@@ -1,15 +1,18 @@
 Lelesys SiteMap Plugin
 =======
 
-TYPO3 Neos plugin that will allow user to add sitemap.
+This plugin will allow user to add sitemap.
 
-Setup
------
+Warning: This plugin is experimental.
 
-Enter the following line in the Root.ts2 of your sites package
+Quick start
+---------
 
-``include: resource://Lelesys.Plugin.SiteMap/Private/TypoScripts/Library/Root.ts2
-``
+* include the plugin's TypoScript definitions to your own one's (located in, for example, `Packages/Sites/Your.Site/Resources/Private/TypoScripts/Library/ContentElements.ts2`) with:
+
+```
+include: resource://Lelesys.Plugin.SiteMap/Private/TypoScripts/Library/Root.ts2
+```
 
 Include the plugin's Stylesheet to your own one's where you add other stylesheets of the site.
 
