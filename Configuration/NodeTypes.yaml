@@ -1,4 +1,4 @@
-'Lelesys.Plugin.NodeTypes:SiteMap':
+'Lelesys.Plugin.SiteMap:SiteMap':
   superTypes: ['TYPO3.Neos:Content']
   ui:
     label: 'Sitemap'

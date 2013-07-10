@@ -1,4 +1,4 @@
 include: resource://Lelesys.Plugin.SiteMap/Private/TypoScripts/Library/NodeTypes.ts2
 
 # This is a top level object which is automatically loaded when url contains .xml
-xml = Lelesys.Plugin.NodeTypes:SiteMapXml
+xml = Lelesys.Plugin.SiteMap:SiteMapXml
