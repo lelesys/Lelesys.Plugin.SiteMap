@@ -22,9 +22,8 @@ class SiteMapXml extends \TYPO3\Neos\TypoScript\MenuImplementation {
 	 * @return string
 	 */
 	public function evaluate() {
-		$this['items'] = $this->getItems();
 		$this->tsRuntime->getControllerContext()->getResponse()->setHeader('Content-Type', 'application/xml');
-		return parent::evaluate();
+		return trim(parent::evaluate());
 	}
 
 }

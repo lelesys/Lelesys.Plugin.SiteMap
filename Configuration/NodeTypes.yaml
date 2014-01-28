@@ -2,5 +2,5 @@
   superTypes: ['TYPO3.Neos:Content']
   ui:
     label: 'Sitemap'
-    group: Structure
+    group: structure
     icon: 'icon-sitemap'
