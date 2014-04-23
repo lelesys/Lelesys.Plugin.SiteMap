@@ -1,4 +1,4 @@
-prototype(Lelesys.Plugin.SiteMap:SiteMap) < prototype(TYPO3.Neos:Menu)
+prototype(Lelesys.Plugin.SiteMap:SiteMap) < prototype(TYPO3.Neos.NodeTypes:Menu)
 prototype(Lelesys.Plugin.SiteMap:SiteMap) {
 	templatePath = 'resource://Lelesys.Plugin.SiteMap/Private/Templates/TypoScript/SiteMap.html'
 	maximumLevels = 10

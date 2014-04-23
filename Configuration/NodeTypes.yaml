@@ -1,5 +1,5 @@
 'Lelesys.Plugin.SiteMap:SiteMap':
-  superTypes: ['TYPO3.Neos:Content']
+  superTypes: ['TYPO3.Neos.NodeTypes:Menu']
   ui:
     label: 'Sitemap'
     group: structure
