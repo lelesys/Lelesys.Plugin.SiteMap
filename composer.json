@@ -18,5 +18,10 @@
         "psr-0": {
             "Lelesys\\Plugin\\SiteMap": "Classes"
         }
+    },
+    "extra": {
+        "applied-flow-migrations": [
+            "TYPO3.Neos.NodeTypes-130516220640"
+        ]
     }
 }
