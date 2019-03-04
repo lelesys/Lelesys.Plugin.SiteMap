@@ -1,5 +1,6 @@
-TYPO3:
+
+Neos:
   Neos:
     typoScript:
       autoInclude:
-        'Lelesys.Plugin.SiteMap': TRUE
+        Lelesys.Plugin.SiteMap: true
