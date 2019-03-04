@@ -1,21 +1,22 @@
 {
-	"name": "lelesys/plugin-site-map",
-	"description": "SiteMap helps you navigate throughout the pages on the site.",
-	"license": "LGPL-3.0+",
-	"type": "typo3-flow-plugin",
-	"authors": [
-		{
-			"name": "Lelesys Infotech Pvt Ltd, India",
-			"email": "typo3neos@lelesys.com",
-			"homepage": "http://www.lelesys.com"
-		}
-	],
-	"require": {
-		"typo3/neos": "dev-master"
-	},
-	"autoload": {
-		"psr-0": {
-			"Lelesys\\Plugin\\SiteMap": "Classes"
-		}
-	}
+    "name": "lelesys/plugin-site-map",
+    "description": "SiteMap helps you navigate throughout the pages on the site.",
+    "license": "LGPL-3.0+",
+    "type": "neos-plugin",
+    "authors": [
+        {
+            "name": "Lelesys Infotech Pvt Ltd, India",
+            "email": "typo3neos@lelesys.com",
+            "homepage": "http://www.lelesys.com"
+        }
+    ],
+    "require": {
+        "neos/neos": "^4.0",
+        "neos/nodetypes": "^4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lelesys\\Plugin\\SiteMap": "Classes"
+        }
+    }
 }
