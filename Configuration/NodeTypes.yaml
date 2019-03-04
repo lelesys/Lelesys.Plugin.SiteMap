@@ -1,6 +1,6 @@
 'Lelesys.Plugin.SiteMap:SiteMap':
   superTypes:
-    'Neos.Neos:Content': TRUE
+    'Neos.NodeTypes.Navigation:Navigation': true
   ui:
     label: 'Sitemap'
     group: structure
